@@ -1,0 +1,30 @@
+@import '../../assets/styles/variables';
+
+span.button {
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: $color-dark;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: $color-white;
+  cursor: pointer;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+
+  &__icon {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &__text {
+    display: inline-block;
+  }
+}

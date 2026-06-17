@@ -1,0 +1,37 @@
+@import '../../assets/styles/variables';
+
+.address {
+  font-style: normal;
+
+  dl {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: $font-size-base;
+
+    a {
+      color: $color-text;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-primary;
+        text-decoration: underline;
+      }
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    dt {
+      margin-right: 10px;
+      color: $color-primary;
+      font-size: 24px;
+      min-width: 50px;
+    }
+
+    dd {
+      margin: 0;
+    }
+  }
+}

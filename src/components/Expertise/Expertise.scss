@@ -1,0 +1,38 @@
+@import '../../assets/styles/variables';
+
+.expertise-list {
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .expertise-list-date {
+    width: 160px;
+    margin-right: 20px;
+    flex-shrink: 0;
+
+    span {
+      color: $color-gray;
+      font-size: $font-size-base;
+    }
+  }
+
+  .expertise-list-info {
+    flex: 1;
+
+    h3 {
+      font: 700 16px/19px $font-family;
+      margin-bottom: 6px;
+    }
+
+    strong {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: $color-gray;
+    }
+  }
+}

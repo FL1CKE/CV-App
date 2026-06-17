@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import './assets/styles/variables';
+@import './assets/styles/reset';
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  margin-left: $panel-width;
+  flex: 1;
+  transition: $transition-default;
+
+  @media (max-width: $breakpoint-mobile) {
+    margin-left: $panel-width-mobile;
+  }
+}

@@ -1,0 +1,16 @@
+@import '../../assets/styles/variables';
+
+.info {
+  background: $color-light-bg;
+  padding: 15px;
+
+  h3 {
+    font: 700 16px/20px $font-family;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: $font-size-base;
+    line-height: 1.6;
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../assets/styles/variables';
+
+.inner-layout {
+  display: flex;
+  min-height: 100vh;
+
+  &__content {
+    margin-left: $panel-width;
+    flex: 1;
+    padding: 40px;
+    transition: $transition-default;
+
+    @media (max-width: $breakpoint-mobile) {
+      margin-left: $panel-width-mobile;
+      padding: 20px;
+    }
+  }
+}
